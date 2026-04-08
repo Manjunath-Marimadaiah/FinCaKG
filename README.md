@@ -156,6 +156,7 @@ Clone the repository
 Install dependencies:
 
 pip install -r requirements.txt
+
 Configure Neo4j credentials using environment variables
 
 Run the main pipeline:
