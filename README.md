@@ -43,7 +43,6 @@ Developed an NLP-based pipeline to:
 ---
 
 ## 📊 Output Examples
-(Add screenshots here)
 - Graph visualisation (Neo4j)
 - Relationship networks
 - Key trend plots
