@@ -161,9 +161,8 @@ Configure Neo4j credentials using environment variables
 Run the main pipeline:
 
 python pipeline.py
-Note
 
-Sensitive credentials have been removed from this public version of the project. Use your own .env or environment variables when connecting to Neo4j.
+Note: Sensitive credentials have been removed from this public version of the project. Use your own .env or environment variables when connecting to Neo4j.
 
 ## Author
 
