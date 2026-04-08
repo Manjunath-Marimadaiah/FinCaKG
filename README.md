@@ -87,7 +87,7 @@ The project demonstrated that NLP and graph-based modelling can improve the anal
     ├── top_causes_effects.png
     └── case_study_graph.png
 ```
-Visualisations
+## Visualisations
 1. System Workflow
 
 Shows the complete pipeline from SEC filing ingestion to NLP processing and knowledge graph analysis.
