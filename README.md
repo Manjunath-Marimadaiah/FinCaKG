@@ -86,3 +86,85 @@ The project demonstrated that NLP and graph-based modelling can improve the anal
     ├── neo4j_graph.png
     ├── top_causes_effects.png
     └── case_study_graph.png
+```
+Visualisations
+1. System Workflow
+
+Shows the complete pipeline from SEC filing ingestion to NLP processing and knowledge graph analysis.
+
+<img width="230" height="440" alt="image" src="https://github.com/user-attachments/assets/c595d270-5ecc-4b16-839b-ca83b2903bbc" />
+
+2. Data Preprocessing Workflow
+
+Illustrates text extraction, cleaning, tokenisation, and entity recognition.
+
+<img width="372" height="614" alt="image" src="https://github.com/user-attachments/assets/b105e4e9-227c-4258-8937-9864369cffe5" />
+
+3. Training vs Validation Loss
+
+Shows model learning behaviour during BERT training.
+
+<img width="627" height="361" alt="image" src="https://github.com/user-attachments/assets/de828436-7f7c-42a3-96ff-284d76a1d673" />
+
+4. Hyperparameter Tuning Heatmap
+
+Shows the effect of learning rate and batch size on model performance.
+
+<img width="640" height="441" alt="image" src="https://github.com/user-attachments/assets/c1a24ea0-840d-4b2e-8587-e077a1b49674" />
+
+5. Neo4j Knowledge Graph
+
+Visualises extracted financial entities and cause-effect relationships.
+
+<img width="555" height="499" alt="image" src="https://github.com/user-attachments/assets/13fa5c86-716f-4a7e-b959-dcc77858e847" />
+
+6. Top Causes and Effects
+
+Highlights the most significant causal relationships identified in the filings.
+
+7. Case Study Visualisation
+
+Demonstrates practical use cases such as risk assessment and strategic decision analysis.
+
+##Business Value
+
+This project shows how NLP and knowledge graphs can support:
+
+financial risk analysis
+strategic decision support
+trend identification
+structured exploration of unstructured reports
+
+It can be extended into a decision-support tool for analysts, investors, and finance teams.
+
+##Limitations
+
+Focused on selected technology companies
+Primarily designed for English-language filings
+Better handling of implicit causality would improve results further
+Scalability can still be improved for very large graph sizes
+Future Improvements
+Fine-tune domain-specific transformer models
+Add real-time ingestion of financial news and filings
+Build an interactive dashboard on top of Neo4j
+Extend to other financial documents such as earnings call transcripts
+Improve user interface for non-technical users
+
+##How to Run
+Clone the repository
+
+Install dependencies:
+
+pip install -r requirements.txt
+Configure Neo4j credentials using environment variables
+
+Run the main pipeline:
+
+python pipeline.py
+Note
+
+Sensitive credentials have been removed from this public version of the project. Use your own .env or environment variables when connecting to Neo4j.
+
+##Author
+
+Manjunath Marimadaiah
