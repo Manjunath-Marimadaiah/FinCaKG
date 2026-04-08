@@ -126,7 +126,7 @@ Highlights the most significant causal relationships identified in the filings.
 
 Demonstrates practical use cases such as risk assessment and strategic decision analysis.
 
-##Business Value
+## Business Value
 
 This project shows how NLP and knowledge graphs can support:
 
@@ -137,7 +137,7 @@ structured exploration of unstructured reports
 
 It can be extended into a decision-support tool for analysts, investors, and finance teams.
 
-##Limitations
+## Limitations
 
 Focused on selected technology companies
 Primarily designed for English-language filings
@@ -150,7 +150,7 @@ Build an interactive dashboard on top of Neo4j
 Extend to other financial documents such as earnings call transcripts
 Improve user interface for non-technical users
 
-##How to Run
+## How to Run
 Clone the repository
 
 Install dependencies:
@@ -165,6 +165,6 @@ Note
 
 Sensitive credentials have been removed from this public version of the project. Use your own .env or environment variables when connecting to Neo4j.
 
-##Author
+## Author
 
 Manjunath Marimadaiah
