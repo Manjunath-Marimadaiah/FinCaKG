@@ -1,5 +1,3 @@
-# financial-causality-analysis-knowledge-graph
-
 # 📊 Financial Causality Analysis using Knowledge Graphs
 
 ## 📌 Overview
